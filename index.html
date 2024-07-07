@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+</head>
+<style>
+    .cls4{
+        box-sizing: border-box;
+        text-align: center;
+        background-color: antiquewhite;
+        width: 96vw;
+        height: 70vh;
+        margin: 17px;
+        padding: 10px;
+        box-shadow: 0px 2px 5px 5px rgb(26, 2, 2);
+    }
+   .cls1{
+    
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: aliceblue;
+    display: inline-block;
+   }
+   .cls1:hover{
+    transform: translateX(50px );
+    background-color: aquamarine;
+    transition: 4s;
+   }
+   .cls2{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(126, 168, 29);
+    display: inline-block;
+   }
+   .cls2:hover{
+    transform: translateY(50px );
+    background-color: rgb(18, 182, 73);
+    transition: 4s;
+   }
+   .cls3{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(102, 196, 240);
+    display: inline-block;
+   }
+   .cls3:hover{
+    transform: translate(50px,60px);
+    background-color: rgb(218, 115, 228);
+    transition: 4s;
+   }
+   .cls5{
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgb(172, 169, 187);
+        width: 96vw;
+        height: 70vh;
+        margin: 17px;
+        padding: 10px;
+        box-shadow: 0px 2px 5px 5px rgb(26, 2, 2);
+    }
+   .cls6{
+    
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color:rosybrown;
+    display: inline-block;
+   }
+   .cls6:hover{
+    transform: scaleX(2);
+    background-color:rgb(209, 209, 55);
+    transition: 4s;
+   }
+   .cls7{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(201, 22, 46);
+    display: inline-block;
+   }
+   .cls7:hover{
+    transform:scaleY(2);
+    background-color: rgb(208, 29, 231);
+    transition: 4s;
+   }
+   .cls8{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(228, 150, 48);
+    display: inline-block;
+   }
+   .cls8:hover{
+    transform:scale(2,2);
+    background-color: rgb(46, 134, 168);
+    transition: 4s;
+
+   }
+   .cls9{
+        box-sizing: border-box;
+        text-align: center;
+        background-color:rgba(209, 209, 55, 0.5);
+        width: 96vw;
+        height: 70vh;
+        margin: 17px;
+        padding: 10px;
+        box-shadow: 0px 2px 5px 5px rgb(26, 2, 2);
+    }
+   .cls10{
+    
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color:rgb(172, 231, 233);
+    display: inline-block;
+   }
+   .cls10:hover{
+    transform: rotateX(190deg);
+    background-color:whitesmoke;
+    transition: 5s;
+   }
+   .cls11{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(140, 64, 150);
+    display: inline-block;
+   }
+   .cls11:hover{
+    transform:rotate(300deg);
+    background-color: rgb(203, 195, 204);
+    transition: 5s;
+   }
+   .cls12{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color:chartreuse;
+    display: inline-block;
+   }
+   .cls12:hover{
+    transform:rotateX(320deg) rotateY(350deg);
+    background-color: rgb(46, 134, 168);
+    transition: 5s;
+   }
+
+
+
+   .cls13{
+        box-sizing: border-box;
+        text-align: center;
+        background-color:white;
+        width: 96vw;
+        height: 70vh;
+        margin: 17px;
+        padding: 10px;
+        box-shadow: 0px 2px 5px 5px rgb(26, 2, 2);
+    }
+   .cls14{
+    
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color:white;
+    display: inline-block;
+   }
+   .cls14:hover{
+    transform: skewX(50deg);
+    background-color:rgb(201, 22, 46);
+    transition: 5s;
+   }
+   .cls15{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color: rgb(88, 39, 64);
+    display: inline-block;
+   }
+   .cls15:hover{
+    transform:skewY(300deg);
+    background-color: rgb(221, 233, 51);
+    transition: 5s;
+   }
+   .cls16{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgb(26, 2, 2) ;
+    background-color:yellow;
+    display: inline-block;
+   }
+   .cls16:hover{
+    transform:skew(80deg,400deg);
+    background-color: rgb(41, 131, 56);
+    transition: 5s;
+   }
+</style>
+<body>
+    <div class="cls9">
+        <h1>Transform Rotate</h1>
+        <div class="cls10">X-axis</div>
+        <div class="cls11">Y-axis</div>
+        <div class="cls12">X-axis&Y-axis</div>
+        
+    </div>
+    <div class="cls13">
+        <h1>Transform Skew</h1>
+        <div class="cls14">X-axis</div>
+        <div class="cls15">Y-axis</div>
+        <div class="cls16">X-axis&Y-axis</div>
+        
+    </div>
+    <div class="cls4">
+    <h1>Transform Translate</h1>
+    <div class="cls1">X-axis</div>
+    <div class="cls2">Y-axis</div>
+    <div class="cls3">X-axis&Y-axis</div>
+</div>
+<div class="cls5">
+    <h1>Transform Scale</h1>
+    <div class="cls6">X-axis</div>
+    <div class="cls7">Y-axis</div>
+    <div class="cls8">X-axis&Y-axis</div>
+
+</div>
+
+</body>
+</html>
